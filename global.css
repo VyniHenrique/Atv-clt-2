@@ -1,0 +1,63 @@
+:root{
+	--cor1: #0091F1;
+	--cor2: #0096FA;
+	--cor3: #007CCF;
+	--cor4: #0068AD;
+	--cor5: #00548B;
+	--cor6: #003F69;
+	--branco: #fff;
+	--preto: #000;
+
+	--roxo1: #4607FA;
+
+
+}
+
+body {
+    font-family: "Noto Sans Khudawadi", "Noto Sans Khudawadi", sans-serif;
+    font-size: 1.1em;
+	background: #020024;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+#menu{
+	background-color: var(--cor4);
+	padding: 2rem;
+	color: var(--preto);
+}
+
+a.menu{
+	color: var(--preto);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 6px;
+
+
+}
+
+
+a.menu:hover {
+    background-color: var(--roxo1);
+    color: var(--corBranca);
+	transition: 1s;
+	
+
+}
+
+
+p.sobre{
+	color: var(--branco);
+	font-family: "Kanchenjunga", sans-serif;
+}
+
+img.foto{	
+	width: 400px;
+	border-radius: 20px;
+	margin-top: 40px;
+	
+}
+
+
+
