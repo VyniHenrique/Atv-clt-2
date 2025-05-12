@@ -46,18 +46,77 @@ a.menu:hover {
 
 }
 
+div.gridSobre{
+	margin-top: 12rem;
+}
+
 
 p.sobre{
 	color: var(--branco);
 	font-family: "Kanchenjunga", sans-serif;
 }
 
+
+
 img.foto{	
 	width: 400px;
 	border-radius: 20px;
-	margin-top: 40px;
 	
 }
 
 
+
+p.formacao{
+	color: var(--branco);
+	font-family: "Kanchenjunga", sans-serif;
+
+}
+
+h1.cabecalho{
+	color: var(--branco);
+	font-family: "Kanchenjunga", sans-serif;
+	font-weight: bold;
+}
+
+img.formacao{
+	width: 400px;
+	
+}
+
+
+div.gridFormacao{
+	margin-top: 13rem;
+}
+
+img.carrosel{
+	padding-left: 40%;
+}
+
+div.styleAcordion{
+	margin-top: 5rem;
+}
+
+div.cabecalhoContato{
+	color: var(--branco);
+	font-family: "Kanchenjunga", sans-serif;
+	font-weight: bold;
+}
+
+button.botao{
+	max-width: 9rem;
+	display: flex;
+	justify-content: center;
+	margin-top: 0.25rem;
+	margin-left: 0.75rem;
+	margin-bottom: 2rem;
+}
+
+button.botao:hover{
+	background-color: var(--cor6);
+	transition: 0.5s;
+}
+
+.scroll {
+    scroll-margin-top: 200px;
+}
 
